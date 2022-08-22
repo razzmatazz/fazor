@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{127710D7-244E-4FF8-AB80-838447F81835}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fazor", "src\Fazor\Fazor.fsproj", "{A187C31A-7B50-4F8B-9BE5-2B08872798D5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fazor.Tests", "src\Fazor.Tests\Fazor.Tests.fsproj", "{FEAD816A-3EC6-473E-B644-B4395333AF19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A187C31A-7B50-4F8B-9BE5-2B08872798D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A187C31A-7B50-4F8B-9BE5-2B08872798D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A187C31A-7B50-4F8B-9BE5-2B08872798D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A187C31A-7B50-4F8B-9BE5-2B08872798D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD816A-3EC6-473E-B644-B4395333AF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD816A-3EC6-473E-B644-B4395333AF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD816A-3EC6-473E-B644-B4395333AF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD816A-3EC6-473E-B644-B4395333AF19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A187C31A-7B50-4F8B-9BE5-2B08872798D5} = {127710D7-244E-4FF8-AB80-838447F81835}
+		{FEAD816A-3EC6-473E-B644-B4395333AF19} = {127710D7-244E-4FF8-AB80-838447F81835}
+	EndGlobalSection
+EndGlobal
